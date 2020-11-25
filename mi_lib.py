@@ -1,5 +1,3 @@
-
-
 def capicua (num):
     x=str(num)
     lista=list(x)
