@@ -1,3 +1,7 @@
 import mi_lib
-numero = int(input("Digite un numero: "))
-print(f"el factorial es: {mi_lib.factorial(numero)}")
+
+a = int(input("Ingrese: "))
+if mi_lib.capicua (a) == True:
+    print("Es un número capicua")
+else:
+    print("No es un número capicua")

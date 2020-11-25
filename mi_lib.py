@@ -1,6 +1,9 @@
 
-def factorial (numero):
-    if (numero == 0):
-        return 1
+
+def capicua (num):
+    x=str(num)
+    lista=list(x)
+    if lista==lista[::-1]:
+        return True
     else:
-        return numero* factorial(numero-1)
+        return False
